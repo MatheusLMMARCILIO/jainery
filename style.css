@@ -1,0 +1,222 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.menu {
+    width: 100%;
+    height: 82px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.menu ul,
+li {
+    display: flex;
+    margin: 20px;
+}
+
+
+.menu a {
+    font-size: 18px;
+    font-family: 'outfit', sans-serif;
+    color: #493d13;
+    font-weight: 500;
+    text-decoration: none;
+    transition: .5s;
+}
+
+.menu a:hover {
+    color: #f29c52;
+}
+
+.btnMenu button {
+    width: 187px;
+    height: 54px;
+    background-color: #f29c52;
+    border: 1px solid #f29c52;
+    border-radius: 50px;
+    transition: .5s;
+    cursor: pointer;
+}
+
+.btnMenu a:hover {
+    color: white;
+}
+
+.btnMenu button:hover {
+    border: none;
+    background-color: #493d13;
+}
+
+.btnMenu a {
+    font-size: 19px;
+    color: white;
+    font-weight: 500;
+    text-decoration: none;
+    font-family: 'outfit', sans-serif;
+
+}
+
+/*****************************/
+
+.freshBakeryFood {
+    width: 100%;
+    height: 670px;
+    background-color: #fff5ed;
+    background-image: url(IMAGE/banner.png);
+    display: flex;
+
+}
+
+.left {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: left;
+
+}
+
+
+
+.leftSpan span {
+    font-size: 30px;
+    color: #f29c52;
+    font-family: 'outfit', sans-serif;
+    font-weight: 500;
+}
+
+.leftH1 {
+    margin: 5px 0px 40px;
+}
+
+.leftH1 span {
+    font-size: 100px;
+    color: #493d13;
+    font-family: 'outfit', sans-serif;
+    font-weight: 700;
+}
+
+.btnLeft button {
+    width: 204px;
+    height: 59px;
+    background-color: #f29c52;
+    border: 1px solid #f29c52;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.btnLeft button:hover {
+    background-color: #493d13;
+    border: none;
+}
+
+.btnLeft a {
+    width: 100%;
+    height: 100%;
+    font-size: 19px;
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.right {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.right img {
+    width: 400px;
+}
+
+/****************************************************/
+
+.choseeYourFood {
+    width: 100%;
+    height: 400px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.SwitchRoll {
+    width: 250px;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 150px;
+    border: 2px solid #f7ece3;
+    cursor: pointer;
+    margin: 20px;
+}
+
+.SwitchRoll:hover {
+    border: 2px dashed #f7ece3;
+}
+
+.choseImg img {
+    width: 140px;
+    padding: 20px;
+}
+
+.choseSpan span {
+    font-size: 25px;
+    color: #493d13;
+    font-family: 'outfit', sans-serif;
+    font-weight: 600;
+}
+
+/*********************************************************************/
+
+.DeliveryPart {
+    width: 100%;
+    height: 300px;
+    background-color: #f29c52;
+    background-image: url(IMAGE/banner.png);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Delivery {
+    width: 300px;
+    height: 136px;
+    display: flex;
+}
+
+.imgFree {
+    width: 60px;
+    height: 60px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    margin-right: 25px;
+}
+
+.textDelivery span {
+    font-size: 22px;
+    color: white;
+    font-family: 'outfit', sans-serif;
+    font-weight: 600;
+}
+
+.textDelivery p {
+    font-size: 17px;
+    color: white;
+    font-family: 'outfit', sans-serif;
+margin: 5px 0px;
+}
