@@ -218,5 +218,229 @@ li {
     font-size: 17px;
     color: white;
     font-family: 'outfit', sans-serif;
-margin: 5px 0px;
+    margin: 5px 0px;
+}
+
+/*******************************/
+
+.bread {
+    display: flex;
+}
+
+.specialBakery {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #fff5ed;
+    padding-top: 100px;
+}
+
+.firstBlock {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    width: 200px;
+    height: 30px;
+    background-color: white;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.firstBlock span {
+    font-size: 13px;
+    color: #f29c52;
+    font-family: 'outfit', sans-serif;
+    font-weight: 600;
+}
+
+.SBtext {
+    margin: 20px 0px 60px 0px;
+}
+
+.SBtext span {
+    font-size: 48px;
+    font-family: 'outfit', sans-serif;
+    color: #493d13;
+    font-weight: 700;
+}
+
+.breadPart {
+    width: 270px;
+    height: 200px;
+    background-color: white;
+    padding: 40px 20px;
+    border-radius: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.breadImg img {
+    width: 160px;
+}
+
+.breadName {
+    margin-top: 30px;
+}
+
+.breadName span {
+    font-size: 20px;
+    font-family: 'outfit', sans-serif;
+    color: #493d13;
+    font-weight: 600;
+}
+
+.breadValue {
+    padding-top: 10px;
+}
+
+.breadValue span {
+    font-size: 16px;
+    color: #f29c52;
+    font-family: 'outfit', sans-serif;
+    font-weight: 600;
+}
+
+/******************************************/
+
+.Discount80 {
+    width: 100%;
+    height: 420px;
+    background-color: #f8dbc4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.left80 {
+    margin-right: 80px;
+}
+
+.left80 img {
+    width: 540px;
+}
+
+.text80span {
+    margin-bottom: 0px 0px 12px 0px;
+}
+
+.text80span span {
+    font-size: 30px;
+    color: #f29c52;
+    font-family: 'outfit', sans-serif;
+    font-weight: 500;
+}
+
+.texttitule80 {
+    margin-bottom: 30px;
+}
+
+.texttitule80 span {
+    font-size: 60px;
+    color: #493d13;
+    font-family: 'outfit', sans-serif;
+    font-weight: 700;
+}
+
+/**********************************************/
+
+.BookReservation {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 100px;
+    z-index: 0;
+    margin-bottom: -25px;
+    position: relative;
+}
+
+.form {
+    width: 60%;
+    height: 500px;
+    background-image: url(IMAGE/bookReservation.jfif);
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    padding: 70px 0px 105px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.form1 input {
+    width: 250px;
+    padding: 20px;
+    border-radius: 8px;
+    border: none;
+    margin: 5px;
+}
+
+.form1 {
+    display: flex;
+}
+
+.mensageInput input {
+    width: 790px;
+    height: 300px;
+    border-radius: 8px;
+    border: none;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 50px;
+}
+
+/***********************************************/
+
+footer {
+    z-index: 999;
+    position: relative;
+    width: 100%;
+    height: 220px;
+    background-image: url(IMAGE/footer\ -\ Copia.svg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.IconsFooter {
+    width: 280px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+    margin-right: 15px;
+}
+
+.footerText span {
+    font-size: 25px;
+    color: white;
+    font-family: 'outfit', sans-serif;
+    font-weight: 600;
+}
+
+.footerText p {
+    font-size: 16px;
+    color: white;
+    font-family: 'outfit', sans-serif;
+    font-weight: 400;
 }
